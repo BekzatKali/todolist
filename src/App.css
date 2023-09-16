@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(226 232 240);
+}
+.completed {
+    text-decoration: line-through;
+    color: rgb(231, 209, 209);
+}
+.app {
+    padding: 0 10px;
+}
+.aligning {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 424px) {
+    .forMedia {
+      display: flex;
+      flex-direction: column;
+    }
+    .forMediaBtn {
+      padding: 16px;
+      background-color: purple;
+    }
+}
