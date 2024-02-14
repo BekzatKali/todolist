@@ -5,7 +5,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons'
 import { faSquare } from '@fortawesome/free-solid-svg-icons'
 import { faSquareCheck } from '@fortawesome/free-solid-svg-icons'
 
-const Todo = ({item, deleteTodo, editTodo, completed}) => {
+const Todo = ({ item, deleteTodo, editTodo, completed }) => {
   return (
     <div className='flex justify-between items-center bg-purple-700 px-4 mt-2 text-white rounded-md mb-3 py-4'>
       <div className='flex gap-3 ' onClick={() => completed(item.id)}>
