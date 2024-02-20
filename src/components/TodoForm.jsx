@@ -9,6 +9,8 @@ const TodoForm = ({addTodo}) => {
     if (value) {
       addTodo(value)
       setValue("")
+    } else {
+      alert('Write a task')
     }
   }
 
